@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    margin: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#easy-btn {
+    background-color: green;
+}
+
+#med-btn {
+    background-color: yellow;
+}
+
+#hard-btn {
+    background-color: red;
+}
+
+#container {
+    width: 800px;
+    height: 800px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.square-easy {
+    float: left;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+}
+
+.square-med {
+    float: left;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    line-height: 88px;
+}
+
+.square-hard {
+    float: left;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    line-height: 115px;
+}
+
+.square-easy.clicked-true {
+    background-color: greenyellow;
+}
+
+.square-med.clicked-true {
+    background-color: greenyellow;
+}
+
+.square-hard.clicked-true {
+    background-color: greenyellow;
+}
+
+.bomb {
+    background-color: red;
+}
