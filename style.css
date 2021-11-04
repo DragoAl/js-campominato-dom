@@ -28,8 +28,8 @@
 }
 
 #container {
-    width: 800px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
     margin: 30px auto;
     border: 1px solid black;
 }
@@ -41,7 +41,7 @@
     border: 2px solid black;
     cursor: pointer;
     text-align: center;
-    line-height: 80px;
+    line-height: 50px;
 }
 
 .square-med {
@@ -51,7 +51,7 @@
     border: 2px solid black;
     cursor: pointer;
     text-align: center;
-    line-height: 88px;
+    line-height: 60px;
 }
 
 .square-hard {
@@ -61,7 +61,7 @@
     border: 2px solid black;
     cursor: pointer;
     text-align: center;
-    line-height: 115px;
+    line-height: 70px;
 }
 
 .square-easy.clicked-true {
@@ -75,6 +75,7 @@
 .square-hard.clicked-true {
     background-color: greenyellow;
 }
+
 
 .bomb {
     background-color: red;
